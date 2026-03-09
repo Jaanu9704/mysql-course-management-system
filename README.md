@@ -40,3 +40,12 @@ This project demonstrates the design and implementation of a relational database
 - ## Database Schema
 
 ![ER Diagram](er_diagram.png)
+## How to Run the Project
+
+1. Open MySQL Workbench.
+2. Run the `schema.sql` file to create the database and tables.
+3. Run the `insert_data.sql` file to insert sample data.
+4. Run the `queries.sql` file to test SQL queries.
+5. Run `views.sql`, `procedures.sql`, and `triggers.sql` to create advanced database objects.
+
+Database name: `course_management`
