@@ -49,3 +49,13 @@ This project demonstrates the design and implementation of a relational database
 5. Run `views.sql`, `procedures.sql`, and `triggers.sql` to create advanced database objects.
 
 Database name: `course_management`
+## Example Query Output
+
+SELECT s.name, c.course_name
+FROM enrollments e
+JOIN students s ON e.student_id = s.student_id
+JOIN courses c ON e.course_id = c.course_id;
+
+<img width="1205" height="1137" alt="image" src="https://github.com/user-attachments/assets/6ff7cd0f-a2b7-4b7b-b347-6582dfdd985b" />
+
+
