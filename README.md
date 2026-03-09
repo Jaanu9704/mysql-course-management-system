@@ -37,3 +37,6 @@ This project demonstrates the design and implementation of a relational database
 - MySQL (Relational Database Management System)
 - SQL (Query Language)
 - MySQL Workbench (Database Client Tool)
+- ## Database Schema
+
+![ER Diagram](er_diagram.png)
