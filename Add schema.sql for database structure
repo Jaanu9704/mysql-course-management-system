@@ -1,0 +1,51 @@
+-- Insert Students Data
+INSERT INTO students(name,email,registration_date) VALUES
+('Rahul Sharma','rahul@gmail.com','2024-01-10'),
+('Anita Verma','anitha@gmail.com','2024-02-12'),
+('Vikram Singh','vikram@gmail.com','2024-03-05'),
+('Sneha Iyer','sneha@gmail.com','2024-03-15'),
+('Kiran Patel','kiran@gmail.com','2024-04-01'),
+('Arjun Reddy','arjun@gmail.com','2024-04-10'),
+('Neha Gupta','neha@gmail.com','2024-04-18'),
+('Rohit Kumar','rohit@gmail.com','2024-04-25');
+
+-- Insert Instructors Data
+INSERT INTO instructors(name,specialization) VALUES
+('Ramesh Kumar','Java'),
+('Priya Sharma','Python'),
+('Arjun Patel','Database'),
+('Meena Nair','Data Science'),
+('Suresh Babu','Web Development');
+
+-- Insert Courses Data
+INSERT INTO courses(course_name,price,instructor_id) VALUES
+('Java Programming',5000,1),
+('Python Programming',4500,2),
+('MySQL Database',4000,3),
+('Data Science Basics',6000,4),
+('Advanced Java',5500,1),
+('Web Development',4800,5);
+
+-- Insert Enrollment Data
+INSERT INTO enrollments(student_id,course_id,enroll_date) VALUES
+(1,1,'2024-04-10'),
+(2,2,'2024-04-11'),
+(3,3,'2024-04-12'),
+(4,4,'2024-04-13'),
+(5,1,'2024-04-14'),
+(6,2,'2024-04-15'),
+(7,3,'2024-04-16'),
+(8,4,'2024-04-17'),
+(1,5,'2024-04-18'),
+(3,6,'2024-04-19');
+
+-- Insert Payments Data
+INSERT INTO payments(student_id,amount,payment_date) VALUES
+(1,5000,'2024-04-10'),
+(2,4500,'2024-04-11'),
+(3,4000,'2024-04-12'),
+(4,6000,'2024-04-13'),
+(5,5000,'2024-04-14'),
+(6,4500,'2024-04-15'),
+(7,4000,'2024-04-16'),
+(8,6000,'2024-04-17');
